@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
         <Header/>
-      <h1>Mi aplicación de React</h1>
-      <p>Bienvenido a mi aplicación de React</p>
+      <h1 className='titulo'>⛩️Tienda de Comida Japonesa⛩️</h1>
+      <p className='subtitulo'>Bienvenido a nuestra Tienda de Comida Japonesa</p>
         <Footer/>
     </div>
   );
