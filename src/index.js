@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header';
 import Footer from './components/footer';
+import Button from './components/button';
 import './index.css'
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
       <h1 className='titulo'>⛩️Tienda de Comida Japonesa⛩️</h1>
       <p className='subtitulo'>Bienvenido a nuestra Tienda de Comida Japonesa</p>
         <Footer/>
+        <Button/>
     </div>
   );
-}
-
+};
 ReactDOM.render(<App />, document.getElementById('root'));

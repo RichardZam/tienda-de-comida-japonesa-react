@@ -53,6 +53,16 @@ text-align: center;
 .subtitulo{
   text-align: center;
 }
+/*ESTILOS DEL BTN DE CAMBIO DE MODOS*/
+
+.fixed-action-btn {
+  position: fixed;
+  bottom: 2px;
+  right: 24px;
+}
+.dark-mode {
+  background-color: #333;
+}
   /*ESTILOS DEL FOOTER*/
 .p-2{
   text-align: center;
