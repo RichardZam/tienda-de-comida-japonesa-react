@@ -4,13 +4,13 @@ import './index.css'
 /*Componentes */
 import Header from './components/Header';
 import Footer from './components/footer';
-import Button from './components/button';
 import Banner from './components/Banner';
+import ProductList from './components/ProductList';
 
 function App() {
   return (
     <div>
- 
+      
       <section>
       <Header/>
       </section>
@@ -18,14 +18,17 @@ function App() {
       <section>
        <Banner/>
       </section>
-            
+      
+      <h2 styles="align-items: center;">Productos</h2>
+      <section>
+       <ProductList/>
+      </section>    
+        
        <section>
        <Footer/>
       </section>
         
-      <section>
-      <Button/>
-      </section>
+     
         
     </div>
   );

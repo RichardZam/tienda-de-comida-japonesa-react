@@ -1,21 +1,12 @@
-import React from 'react';
-
-function Header() {
+import React from "react";
+import Nav from "./nav";
+const Header = () => {
   return (
     <header>
-  <div class="header-container">
-    <div class="logo-container">
-    </div>
-    <nav class="nav-container">
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+      <img  class="logo" src="logo.png" alt="Logo de la tienda" />    
+       <Nav></Nav>
+    </header>
   );
-}
+};
 
 export default Header;
