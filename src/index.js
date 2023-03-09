@@ -1,18 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css'
+/*Componentes */
 import Header from './components/Header';
 import Footer from './components/footer';
 import Button from './components/button';
-import './index.css'
+import Banner from './components/Banner';
 
 function App() {
   return (
     <div>
-        <Header/>
-      <h1 className='titulo'>⛩️Tienda de Comida Japonesa⛩️</h1>
-      <p className='subtitulo'>Bienvenido a nuestra Tienda de Comida Japonesa</p>
-        <Footer/>
-        <Button/>
+ 
+      <section>
+      <Header/>
+      </section>
+      
+      <section>
+       <Banner/>
+      </section>
+            
+       <section>
+       <Footer/>
+      </section>
+        
+      <section>
+      <Button/>
+      </section>
+        
     </div>
   );
 };
