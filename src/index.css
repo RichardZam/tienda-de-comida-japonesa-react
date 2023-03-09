@@ -2,8 +2,8 @@ header {
   display: flex;
   align-items: center;
   height: 70px;
-  background-color: #423b3b;
-
+  background-color: #333;
+  padding-left: 20px;
 }
 
 .logo {
@@ -14,6 +14,7 @@ header {
 /*Estilos del componente NAV*/
 .nav-m  {
   background: #333;
+  align-items: center;
 }
 
 .nav-m a {
@@ -85,16 +86,70 @@ header {
  }
 
 
-/*ESTILOS DEL BTN DE CAMBIO DE MODOS*/
+/*ESTILOS PARA EL CONTACT*/
+.contact {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
 
-.fixed-action-btn {
-  position: fixed;
-  bottom: 2px;
-  right: 24px;
+.contact h2 {
+  margin-bottom: 20px;
+  text-align: center;
 }
-.dark-mode {
-  background-color: #333;
+
+.form-group {
+  margin-bottom: 20px;
 }
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type='submit'] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5e5e;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #ff3d3d;
+}
+
 
 
 
