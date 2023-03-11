@@ -7,6 +7,7 @@ import Footer from './components/footer';
 import Banner from './components/Banner';
 import ProductList from './components/ProductList';
 import Contact from './components/Contact';
+import RecipesList from './components/RecipesList';
 
 function App() {
   return (
@@ -20,12 +21,17 @@ function App() {
        <Banner/>
       </section>
       
+       <section>    
+       <RecipesList/>
+       </section>
+
       <h2 class="title-product">Productos</h2>
       <section>
        <ProductList/>
-      </section>    
+      </section>  
       
-       <section>
+
+      <section>
         <Contact/>
       </section>
 
@@ -33,7 +39,7 @@ function App() {
        <Footer/>
       </section>
         
-     
+      
         
     </div>
   );

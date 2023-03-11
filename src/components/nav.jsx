@@ -8,8 +8,7 @@ const Nav = () => {
         <li><a href="#productos">🍜Productos</a></li>
         <li><a href="#contacto">💬Contactos</a></li>
         <li><a href="#carrito"> 🛒Carrito</a></li>
-      </ul>
-
+      </ul>   
     </nav>
   );
 };
