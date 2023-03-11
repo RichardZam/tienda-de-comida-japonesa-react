@@ -20,7 +20,7 @@ function App() {
       <section>
        <Banner/>
       </section>
-      
+
        <section>    
        <RecipesList/>
        </section>

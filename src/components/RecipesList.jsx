@@ -18,6 +18,7 @@ function RecipesList() {
 
   return (
     <div className="search-bar">
+      <h2 class="title-recipes">Busca Ingredientes</h2>
       <input type="text" value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />
       <button onClick={handleSearch}>Buscar</button>
 

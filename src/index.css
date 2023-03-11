@@ -78,7 +78,13 @@ header {
 .product-card button:hover {
   background-color: #ff8c38;
 }
-
+/*ESTILOS DEL CUERPO*/
+.title-recipes{
+  text-align: center;
+}
+.title-product{
+  text-align: center;
+}
 
 
 /*ESTILOS DEL BANNER*/
