@@ -8,9 +8,9 @@ const ProductList = () => {
     { id: 3, name: "Yakitori de pollo", price: 8.99, image: "yakitoridepollo.jpg" },
     { id: 4, name: "Ramen de mariscos", price: 10.99, image: "ramendemariscos.jpg" },
     { id: 5, name: "Tempura", price: 15.99, image: "tempura.jpg" },
-    { id: 6, name: "Miso", price: 8.99, image: "miso.png" },
-    { id: 7, name: "Teriyaki", price: 9.99, image: "teriyaki.png" },
-    { id: 8, name: "Udon", price: 10.99, image: "udon.png" },
+    { id: 6, name: "Miso", price: 8.99, image: "miso.jpg" },
+    { id: 7, name: "Teriyaki", price: 9.99, image: "teriyaki.jpg" },
+    { id: 8, name: "Udon", price: 10.99, image: "udon.jpg" },
   ];
 
   return (
