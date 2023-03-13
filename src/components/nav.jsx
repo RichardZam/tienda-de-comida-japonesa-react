@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav className="nav-m">
+    <nav data-testid="nav" className="nav-m">
       <ul>
         <li><a href="#inicio">🏠Inicio</a></li>
         <li><a href="#productos">🍜Productos</a></li>

@@ -9,10 +9,11 @@ import ProductList from './components/ProductList';
 import Contact from './components/Contact';
 import RecipesList from './components/RecipesList';
 
+/**Richard Zambrano & Andrey  */
 function App() {
   return (
     <div>
-      
+       
       <section>
       <Header/>
       </section>
